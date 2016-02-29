@@ -1,0 +1,20 @@
+<h1>Professional Page 5000 </h1>
+<p><%=@task.item%></p>
+
+
+
+
+<form action = 'changetask' method 'get'>
+<input type = 'text' name = 'itemid' placeholder="Call Item"/>
+<input type = 'text' name = 'change' placeholder="Change Item"/>
+<br/>
+</br>
+<br>
+</br/>
+<input type = 'submit' value = 'Professional Update Button 5000'/>
+</form>
+
+
+<p>
+  <%=@table.each {|element| element.to_s}%>
+</p>
